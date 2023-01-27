@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { exampleProducts } from '@myorg/products';
+import { exampleProducts } from '../../../../libs/products/src/lib/';
 
 @Component({
   selector: 'myorg-root',
