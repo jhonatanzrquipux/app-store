@@ -1,0 +1,7 @@
+<myorg-nx-welcome></myorg-nx-welcome>
+<myorg-banner title="Welcome to the store!"> </myorg-banner>
+    <ul>
+      <li *ngFor="let product of products">
+        <strong>{{ product.name }}</strong> Price: {{ product.price }}
+      </li>
+</ul>
